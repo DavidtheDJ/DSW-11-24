@@ -26,7 +26,7 @@ class CropWindow(QMainWindow):
         self.crop_radio_buttons = RadioButtonWidget("Crop Simulation", "Please select a crop",("Wheat","Potato"))
         self.instantiate_button = QPushButton("Create Crop")
 
-        #creat layout to hold the widgets
+        #create layout to hold the widgets
         self.initial_layout = QVBoxLayout()
         self.initial_layout.addWidget(self.crop_radio_buttons)
         self.initial_layout.addWidget(self.instantiate_button)
@@ -55,7 +55,7 @@ class CropWindow(QMainWindow):
         #add label widgets to the status layout
         self.status_grid.addWidget(self.growth_label,0,0)
         self.status_grid.adWidget(self.days_label,1,0)
-        self.status_grid.add Widget(self.status_label,2,0)
+        self.status_grid.addWidget(self.status_label,2,0)
 
         #add line edit widgets to the status layout
         self.status_grid.addWidget(self.growth_line_edit,0,1)
