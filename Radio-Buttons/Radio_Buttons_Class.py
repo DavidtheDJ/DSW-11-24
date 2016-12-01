@@ -5,6 +5,7 @@
 import sys
 
 from PyQt4.QtGui import *
+from Crop_Sim import *
 
 class RadioButtonWidget(QWidget):
     """this class creates a group pf radio buttons from a given lists of labels"""
